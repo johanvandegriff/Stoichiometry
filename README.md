@@ -1,7 +1,14 @@
 # Stoichiometry
 Java project that balances reactions and computes grams/moles.
 
-Features:
+## Main Features
+* Reading chemical compounds (e.g. `C3H5(NO3)3(s)`) from a string: [src/stoichiometry/Compound.java](https://github.com/johanvandegriff/Stoichiometry/blob/master/src/stoichiometry/Compound.java)
+* Reading expressions (e.g. `H2+O2`) from a string: [src/stoichiometry/Expression.java](https://github.com/johanvandegriff/Stoichiometry/blob/master/src/stoichiometry/Expression.java)
+* Reading chemical reactions (e.g. `Al + I2 -> AlI3`) from a string: [src/stoichiometry/Reaction.java](https://github.com/johanvandegriff/Stoichiometry/blob/master/src/stoichiometry/Reaction.java)
+* Balancing chemical reactions: [src/stoichiometry/Reaction.java](https://github.com/johanvandegriff/Stoichiometry/blob/master/src/stoichiometry/Reaction.java)
+* Setting the grams or moles of any compound to compute the other compounds grams/moles: [src/stoichiometry/Reaction.java](https://github.com/johanvandegriff/Stoichiometry/blob/master/src/stoichiometry/Reaction.java)
+
+## Support Features
 * Fractions and fractional operations: [src/numbers/Fraction.java](https://github.com/johanvandegriff/Stoichiometry/blob/master/src/numbers/Fraction.java)
 * Solving systems of equations with fractional coefficients: [src/numbers/Solver.java](https://github.com/johanvandegriff/Stoichiometry/blob/master/src/numbers/Solver.java)
 * Python program to extract data about the elements from text files: [elements/compile_data.py](https://github.com/johanvandegriff/Stoichiometry/blob/master/elements/compile_data.py)
