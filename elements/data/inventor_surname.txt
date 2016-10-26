@@ -1,0 +1,359 @@
+3
+discoverer surname
+discoverer element name
+symbol
+Agricola, Georgius
+Bismuth
+Bi
+Arfvedson, Johan August
+Lithium
+Li
+Armbruster, Paula & Muenzenberg, Dr. Gottfried
+Hassium
+Hs
+Armbruster, Paula & Muenzenberg, Dr. Gottfried
+Meitnerium
+Mt
+Armbruster, Paula & Muenzenberg, Dr. Gottfried
+Darmstadtium
+Ds
+Armbruster, Paula & Muenzenberg, Dr. Gottfried
+Ununbium
+Uub
+Balard, Antoine-Jérôme
+Bromine
+Br
+Berzelius, Jöns Jacob
+Silicon
+Si
+Berzelius, Jöns Jacob
+Selenium
+Se
+Berzelius, Jöns Jacob
+Thorium
+Th
+Black, Joseph
+Magnesium
+Mg
+Brandt, Georg
+Cobalt
+Co
+Brandt, Hennig
+Phosphorus
+P
+Bunsen, Robert Wilhelm & Kirchhoff, Gustav Robert
+Rubidium
+Rb
+Cavendish, Henry
+Hydrogen
+H
+Cleve, Per Teodor
+Thulium
+Tm
+Corson, Dale R. & Mackenzie, K. R.
+Astatine
+At
+Coster, Dirk & De Hevesy, George Charles
+Hafnium
+Hf
+Courtois, Bernard
+Iodine
+I
+Crawford, Adair
+Strontium
+Sr
+Cronstedt, Alex Fredrik
+Nickel
+Ni
+Crookes, William
+Thallium
+Tl
+Curie, Marie & Pierre
+Polonium
+Po
+Curie, Marie & Pierre
+Radium
+Ra
+Davy, Humphry
+Natrium
+Na
+Davy, Humphry
+Potassium
+K
+Davy, Humphry
+Calzium
+Ca
+Davy, Humphry
+Barium
+Ba
+Davy, Sir Humphry & Gay-Lussac, Louis-Joseph
+Boron
+B
+De Marignac, Charles Galissard
+Gadolinium
+Gd
+De Marignac, Jean Charles Galissard
+Ytterbium
+Yb
+Debierne, André
+Actinium
+Ac
+Del Rio, Andrés Manuel & Sefström, Nils Gabriel
+Vanadium
+V
+Delafontaine, Marc & Soret, Louis
+Holmium
+Ho
+Demacay, Had
+Europium
+Eu
+Dorn, Friedrich Ernst
+Radon
+Rn
+Ekeberg, Anders Gustav
+Tantalum
+Ta
+Elhuyar, Juan José & Fausto (brother)
+Tungsten
+W
+Flerow or Ghiorso
+Dubnium
+Db
+Flerow, Iwan or Ghiorso, Albert
+Rutherfordium
+Rf
+Gadolin, Johan
+Yttrium
+Y
+Gahn, Johan Gottlieb
+Manganese
+Mn
+Ghiorso, Albert
+Lawrencium
+Lr
+Gregor, William & Klaproth, Martin Heinrich
+Titanium
+Ti
+Hatchet, Charles
+Niobium
+Nb
+Hisinger, Wilhelm & Berzelius, Jöns Jacob
+Cerium
+Ce
+Hofmann, Sigurd
+Roentgenium
+Rg
+Kirchhoff, Gustav & Bunsen, Robert
+Cesium
+Cs
+Klaproth, Martin Heinrich
+Zirconium
+Zr
+Klaproth, Martin Heinrich
+Uranium
+U
+Klaus, Karl Karlovich
+Ruthenium
+Ru
+Lecoq de Boisbaudran, Paul-Émile
+Gallium
+Ga
+Lecoq de Boisbaudran, Paul-Émile
+Samarium
+Sm
+Lecoq de Boisbaudran, Paul-Émile
+Dysprosium
+Dy
+Magnus, Albertus
+Arsenic
+As
+Marinsky, J. A. & Glendenin, L. E.
+Promethium
+Pm
+McMillan, Edwin M. & Abelson, Philip H.
+Neptunium
+Np
+Moissan, Henri
+Fluorine
+F
+Mosander, Carl Gustav
+Lanthanum
+La
+Mosander, Carl Gustav
+Terbium
+Tb
+Mosander, Carl Gustav
+Erbium
+Er
+Müller von Reichenstein, Franz Joseph
+Tellurium
+Te
+Nilson, Lars Fredrik
+Scandium
+Sc
+Noddack, Walter & Tacke, Ida
+Rhenium
+Re
+Oersted, Hans Christian
+Aluminum
+Al
+Oganessian
+Bohrium
+Bh
+Perey, Marguerite
+Francium
+Fr
+Perrier, Carlo & Segrè, Emilio
+Technetium
+Tc
+Priestley, Joseph & Scheele, Carl Wilhelm
+Oxygen
+O
+Ramsay, Sir William & Strutt, John
+Argon
+Ar
+Ramsay, Wil & Travers, Morris Willliam
+Krypton
+Kr
+Ramsay, William & Travers, Morris
+Neon
+Ne
+Ramsay, William & Travers, Morris William
+Xenon
+Xe
+Ramsey, Sir William & Cleve, Per Teodor
+Helium
+He
+Reich, Ferdinand & Richter, Hieronymus
+Indium
+In
+Rutherford, Daniel
+Nitrogen
+N
+Scaliger, Julius
+Platinum
+Pt
+Scheele, Carl Wilhelm
+Chlorine
+Cl
+Scheele, Karl
+Molybdenum
+Mo
+Seaborg, Glenn T.
+Plutonium
+Pu
+Seaborg, Glenn T.
+Americium
+Am
+Seaborg, Glenn T.
+Curium
+Cm
+Seaborg, Glenn T.
+Berkelium
+Bk
+Seaborg, Glenn T.
+Californium
+Cf
+Seaborg, Glenn T.
+Einsteinium
+Es
+Seaborg, Glenn T.
+Fermium
+Fm
+Seaborg, Glenn T.
+Mendelevium
+Md
+Seaborg, Glenn T.
+Nobelium
+No
+Seaborg, Glenn T.
+Seaborgium
+Sg
+Soddy, Frederick; Cranston, John & Hahn, Otto
+Protactinium
+Pa
+Stromeyer, Prof. Friedrich
+Cadmium
+Cd
+Tennant, Smithson
+Osmium
+Os
+Tennant, Smithson
+Iridium
+Ir
+Urbain, Georges
+Lutetium
+Lu
+Vauquelin
+Chromium
+Cr
+Vauquelin, Nicholas Louis
+Beryllium
+Be
+Von Welsbach, Baron Auer
+Praseodymium
+Pr
+Von Welsbach, Baron Auer
+Neodymium
+Nd
+Winkler, Clemens A.
+Germanium
+Ge
+Wollaston, William Hyde
+Rhodium
+Rh
+Wollaston, William Hyde
+Palladium
+Pd
+unknown
+Carbon
+C
+unknown
+Sulfur
+S
+unknown
+Iron
+Fe
+unknown
+Copper
+Cu
+unknown
+Zinc
+Zn
+unknown
+Silver
+Ag
+unknown
+Tin
+Sn
+unknown
+Antimony
+Sb
+unknown
+Gold
+Au
+unknown
+Mercury
+Hg
+unknown
+Lead
+Pb
+unknown
+Ununtrium
+Uut
+unknown
+Ununquadium
+Uuq
+unknown
+Ununpentium
+Uup
+unknown
+Ununhexium
+Uuh
+unknown
+Ununseptium
+Uus
+unknown
+Ununoctium
+Uuo
+

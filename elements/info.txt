@@ -1,0 +1,4 @@
+data is from:
+http://www.lenntech.com/periodic/number/atomic-number.htm
+
+Note: commas (",") are used in place of periods (".")
