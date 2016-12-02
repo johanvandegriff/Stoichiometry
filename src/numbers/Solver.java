@@ -63,13 +63,13 @@ public class Solver {
 		}
 		// inverse of matrix mat[][]
 		Fraction inverted_mat[][] = invert(mat);
-		//System.out.println("The inverse is: ");
-		for (int i = 0; i < n; ++i) {
-			for (int j = 0; j < n; ++j) {
-				//System.out.print(inverted_mat[i][j] + "  ");
-			}
-			//System.out.println();
-		}
+//		System.out.println("The inverse is: ");
+//		for (int i = 0; i < n; ++i) {
+//			for (int j = 0; j < n; ++j) {
+//				System.out.print(inverted_mat[i][j] + "  ");
+//			}
+//			System.out.println();
+//		}
 		// Multiplication of mat inverse and constants
 		Fraction result[][] = Fraction.new2DArray(n, 1);
 		for (int i = 0; i < n; i++) {

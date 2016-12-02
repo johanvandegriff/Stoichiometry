@@ -58,7 +58,7 @@ public class Reaction {
 //		}
 		//System.out.println("!Spaces	" + reaction2);
 
-		String[] leftRight = reaction.split("->|=>|<-|<=|<|>|<<|>>|<>|<->|<=>|=|←|→|↔|«|»");
+		String[] leftRight = reaction.split("->|=>|<-|<=|<|>|<<|>>|<>|<->|<=>|=|←|→|↔|«|»|⇆");
 		
 		//System.out.println("Sides	" + Arrays.asList(leftRight));
 		
