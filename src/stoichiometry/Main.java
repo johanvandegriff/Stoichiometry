@@ -7,7 +7,10 @@ import numbers.Solver;
 
 public class Main {
 	public static void main(String[] args){
-		Reaction.fromString("H2+O2->H2O").printInfo();
+        Reaction.fromString("H2 + O2 => H2O").printInfo();
+        Reaction.fromString("Fe(l) + 2 H2O(l) -> Fe(2+)(aq) + OH(-)(aq) + H2(g)").printInfo();
+        Reaction.fromString("C3H6(OH)2 + O2 -> CO2 + H2O").printInfo();
+        Reaction.fromString("H(+) + Cl(-) -> HCl").printInfo();
 //		Reaction.fromString("Al + I2 -> AlI3").printInfo();
 //		Reaction.fromString("NH3 + CO2 → (NH2)2CO + H2O").printInfo();
 //		Reaction.fromString("Zn + HCl → ZnCl2 + H2").printInfo();
@@ -50,8 +53,9 @@ public class Main {
 //        System.out.println(Compound.fromString("Ni").getMolarMass());
 //		System.out.println(Compound.fromString("NaCl").getMolarMass());
 //		System.out.println(Compound.fromString("MgSO4(H2O)7").getMolarMass());
-		Reaction.fromString("CO2(g) + H2O(l) ⇆ H3O(+)(aq) + HCO3(-)(aq) ").printInfo();
+//		Reaction.fromString("CO2(g) + H2O(l) ⇆ H3O(+)(aq) + HCO3(-)(aq) ").printInfo();
 
+//      System.out.println(Compound.fromString("NaOH").getMolarMass());
 		
 //		System.out.println(new StringTableBuilder().addItem("A1").addItem("A2").addItem("A3").newRow().addItem("B1").addItem("B2").newRow().addItem("C1").build(4));
 		

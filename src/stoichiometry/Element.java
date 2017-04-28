@@ -119,6 +119,8 @@ public enum Element {
 	Lv("Livermorium", 116, 298),
 	Uus("Ununseptium", 117, 294),
 	Uuo("Ununoctium", 118, 294);
+	
+	public static final double ELECTRON_ATOMIC_MASS = 5.48579909070e-4;
 
 	private final String fullName;
 	private final int atomicNumber;

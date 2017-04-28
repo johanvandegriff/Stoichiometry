@@ -7,17 +7,19 @@ import java.util.Map;
 
 public class Compound {
 	private final Map<Element, Integer> elements;
-	private final String stateOfMatter;
+	private final String displayString;
 	private final int charge;
 
-	public Compound(Map<Element, Integer> elements, String stateOfMatter, int charge) {
+	public Compound(Map<Element, Integer> elements, String displayString, int charge) {
 		this.elements = elements;
-		this.stateOfMatter = stateOfMatter;
+		this.displayString = displayString;
 		this.charge = charge;
 	}
 
 	public static Compound fromString(String compound) {
 //		System.out.println("c Input	" + compound);
+	    String displayString = compound.replaceAll("\\s+","");
+	    
 		List<String> parts = new ArrayList<>();
 
 		// loop through the chars of the compound String
@@ -51,7 +53,7 @@ public class Compound {
 
 		//System.out.println("Split	" + parts);
 
-		String stateOfMatter = "";
+//		String stateOfMatter = "";
 		int charge = 0;
 		
 		int i = 0;
@@ -81,7 +83,7 @@ public class Compound {
 				if (subList.size() == 1){
 					String s = subList.get(0);
 					if(s.equals("s") || s.equals("l") || s.equals("g") || s.equals("aq")){
-						stateOfMatter = s;
+//						stateOfMatter = s;
 						quantity = 0;
 					} else
 					if(s.equals("-")){
@@ -157,7 +159,7 @@ public class Compound {
 		}
 
 		//System.out.println("Final	" + elements);
-		return new Compound(elements, stateOfMatter, charge);
+		return new Compound(elements, displayString, charge);
 	}
 
 	public Map<Element, Integer> getElements() {
@@ -165,32 +167,37 @@ public class Compound {
 	}
 	
 	public String chargeString(){
-		if (charge > 0){
-			return "(" + charge + "+)";
-		} else if (charge < 0) {
-			return "(" + -charge + "-)";
-		} else {
-			return "";
-		}
+	    if (charge < -1) {
+            return "(" + -charge + "-)";
+	    } else if (charge == -1) {
+            return "(-)";
+        } else if (charge == 1) {
+            return "(+)";
+        } else if (charge > 1) {
+            return "(" + charge + "+)";
+        } else { //charge == 0
+	        return "";
+	    }
 	}
 	
 	@Override
 	public String toString() {
-		String s = "";
-		for (Map.Entry<Element, Integer> entry : elements.entrySet()){
-			Element e = entry.getKey();
-			int q = entry.getValue();
-			if (q == 1) {
-				s += e;
-			} else if (q != 0){
-				s += "" + e + q;
-			}
-		}
-		s += chargeString();
-		if (stateOfMatter != "") {
-			s += "(" + stateOfMatter + ")";
-		}
-		return s;
+	    return displayString;
+//		String s = "";
+//		for (Map.Entry<Element, Integer> entry : elements.entrySet()){
+//			Element e = entry.getKey();
+//			int q = entry.getValue();
+//			if (q == 1) {
+//				s += e;
+//			} else if (q != 0){
+//				s += "" + e + q;
+//			}
+//		}
+//		s += chargeString();
+//		if (displayString != "") {
+//			s += "(" + displayString + ")";
+//		}
+//		return s;
 	}
 
 	public double getMolarMass() {
@@ -200,6 +207,10 @@ public class Compound {
 			int q = entry.getValue();
 			m += e.getAtomicMass() * q;
 		}
-		return m;
+		return m - charge * Element.ELECTRON_ATOMIC_MASS; //account for the mass of electrons
 	}
+
+    public int getCharge() {
+        return charge;
+    }
 }
