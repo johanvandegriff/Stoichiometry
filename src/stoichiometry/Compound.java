@@ -51,7 +51,8 @@ public class Compound {
 		parts.add(part);
 		parts.remove(0);
 
-		//System.out.println("Split	" + parts);
+		
+//		System.out.println("Split	" + parts);
 
 //		String stateOfMatter = "";
 		int charge = 0;
@@ -127,7 +128,7 @@ public class Compound {
 //			System.out.println(i + " " + parts);
 		}
 
-		//System.out.println("Simple	" + parts);
+//		System.out.println("Simple	" + parts);
 
 		// List<ElementQuantity> elements = new ArrayList<>();
 		Map<Element, Integer> elements = new LinkedHashMap<>();

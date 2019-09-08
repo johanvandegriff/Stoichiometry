@@ -7,10 +7,15 @@ import numbers.Solver;
 
 public class Main {
 	public static void main(String[] args){
-        Reaction.fromString("H2 + O2 => H2O").printInfo();
-        Reaction.fromString("Fe(l) + 2 H2O(l) -> Fe(2+)(aq) + OH(-)(aq) + H2(g)").printInfo();
-        Reaction.fromString("C3H6(OH)2 + O2 -> CO2 + H2O").printInfo();
-        Reaction.fromString("H(+) + Cl(-) -> HCl").printInfo();
+		System.out.print("Enter the chemical equation: ");
+		Scanner input = new Scanner(System.in);
+		Reaction.fromString(input.nextLine()).setMoles(0, 1).printInfo();
+		input.close();
+//        Reaction.fromString("H2 + O2 => H2O").printInfo();
+//        Reaction.fromString("Fe(l) + H2O(l) => Fe(2+)(aq) + OH(-)(aq) + H2(g)").printInfo();
+//        Reaction.fromString("C3H6(OH)2 + O2 -> CO2 + H2O").printInfo();
+//        Reaction.fromString("H(+) + Cl(-) -> HCl").printInfo();
+//        Reaction.fromString("2NO2+NO3+CO => NO3+NO+CO2+NO2").printInfo();
 //		Reaction.fromString("Al + I2 -> AlI3").printInfo();
 //		Reaction.fromString("NH3 + CO2 → (NH2)2CO + H2O").printInfo();
 //		Reaction.fromString("Zn + HCl → ZnCl2 + H2").printInfo();
