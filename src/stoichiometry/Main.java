@@ -7,10 +7,47 @@ import numbers.Solver;
 
 public class Main {
 	public static void main(String[] args){
-		System.out.print("Enter the chemical equation: ");
-		Scanner input = new Scanner(System.in);
-		Reaction.fromString(input.nextLine()).setMoles(0, 1).printInfo();
-		input.close();
+		if (args.length > 0) {
+			String equation = args[0];
+			Reaction r = Reaction.fromString(equation).setMoles(0, 1);
+			if (args.length > 3) {
+				String compound = args[1];
+				String gOrM = args[3];
+				if (gOrM.equals("g") || gOrM.equals("grams")) {
+					double grams = Double.valueOf(args[2]);
+					r.setGrams(compound, grams);
+				} else if (gOrM.equals("m") || gOrM.equals("moles")) {
+					double moles = Double.valueOf(args[2]);
+					r.setMoles(compound, moles);
+				} else {
+					System.out.println("Input not recognized: " + gOrM);
+				}
+			}
+			r.printInfo();
+		} else {
+			System.out.print("Enter the chemical equation: ");
+			Scanner input = new Scanner(System.in);
+			Reaction r = Reaction.fromString(input.nextLine()).setMoles(0, 1);
+			r.printInfo();
+			System.out.print("Which compound do you want to set the amount? ");
+			String compound = input.nextLine();
+			System.out.print("Do you want to set the grams or moles? (enter \"g\" or \"m\"): ");
+			String gOrM = input.nextLine();
+			if (gOrM.equals("g") || gOrM.equals("grams")) {
+				System.out.print("Enter the number of grams: ");
+				double grams = input.nextDouble();
+				r.setGrams(compound, grams);
+				r.printInfo();
+			} else if (gOrM.equals("m") || gOrM.equals("moles")) {
+				System.out.print("Enter the number of moles: ");
+				double moles = input.nextDouble();
+				r.setMoles(compound, moles);
+				r.printInfo();
+			} else {
+				System.out.println("Input not recognized: " + gOrM);
+			}
+			input.close();
+		}
 //        Reaction.fromString("H2 + O2 => H2O").printInfo();
 //        Reaction.fromString("Fe(l) + H2O(l) => Fe(2+)(aq) + OH(-)(aq) + H2(g)").printInfo();
 //        Reaction.fromString("C3H6(OH)2 + O2 -> CO2 + H2O").printInfo();
