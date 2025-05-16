@@ -313,8 +313,12 @@ public class Reaction {
         }
     }
 
+    public String getInfo() {
+        return (new ReactionStringTableBuilder().add().buildCompounds(reactants).add(" => ").buildCompounds(products).newRow().add("g/mol").buildMolarMasses(reactants).add().buildMolarMasses(products).newRow().add("mol").buildMoles(reactants).add().buildMoles(products).newRow().add("g").buildGrams(reactants).add().buildGrams(products).build(2, Align.CENTER)).toString();
+    }
+
     public void printInfo() {
-        System.out.println(new ReactionStringTableBuilder().add().buildCompounds(reactants).add(" => ").buildCompounds(products).newRow().add("g/mol").buildMolarMasses(reactants).add().buildMolarMasses(products).newRow().add("mol").buildMoles(reactants).add().buildMoles(products).newRow().add("g").buildGrams(reactants).add().buildGrams(products).build(2, Align.CENTER));
+        System.out.println(getInfo());
     }
 
     public int getCoefficient(Compound c) {
